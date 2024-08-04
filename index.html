@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UseDev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./css/cabecalho.css">
+<link rel="stylesheet" href="./css/banner.css">
+<link rel="stylesheet" href="./css/categorias.css">
+<link rel="stylesheet" href="./css/promocoes.css">
+<link rel="stylesheet" href="./css/newsletter.css">
+<link rel="stylesheet" href="./css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <ul class="cabecalho__nav_list">
+                <li>
+                    <h1 class="cabecalho__logo"><img src="./assets/icons/logo.svg" alt="UseDev Logo" class="logo"></h1>
+                </li>
+                <li class="cabecalho__nav_list_item">
+                    <a href="#" class="cabecalho__nav_list_link cabecalho__nav_list_link-sobre">Sobre nós</a>
+                </li>
+                <li class="cabecalho__nav_list_item cabecalho__nav_list_item-input">
+                    <input type="search" 
+                    name="search" 
+                    id="search" 
+                    placeholder="O que você procura?"
+                    class="cabecalho__nav_list_input">
+                    <img src="./assets/icons/search.svg" alt="Lupa" class="search-icon">
+                </li>
+                <li class="cabecalho__nav_list_item">
+                    <a href="#"  class="cabecalho__nav_list_link cabecalho__nav_list_link-login">Login</a>
+                </li>
+                <li class="cabecalho__nav_list_item">
+                    <a href="#"  class="cabecalho__nav_list_link cabecalho__nav_list_link-perfil">
+                        <img src="./assets/icons/perfil.svg" alt="perfil">
+                    </a>
+                </li>
+                <li class="cabecalho__nav_list_item">
+                    <a href="#"  class="cabecalho__nav_list_link cabecalho__nav_list_link-carrinho">
+                        <img src="./assets/icons/carrinho.svg" alt="carrinho">
+                    </a>
+                </li>
+            </ul>
+    </header>
+    
+    <main>
+        <section class="banner">
+            <img src="./assets/banner.png" alt="Banner" class="banner__imagem">
+            <div class="banner__container">
+                <h2 class="banner__container-titulo">Hora de abraçar seu <span>lado geek!</span></h2>
+                <button class="banner__container-botao">Ver as novidades!</button>
+            </div>
+        </section>
+
+        <section class="categorias">
+            <h3 class="categorias__titulo">Categorias</h3>
+            <p class="categorias__texto">De roupas a gadgets tecnológicos temos tudo para atender suas paixões e hobbies com estilo e autenticidade.</p>
+            
+                <ul class="categorias__list">
+                    <li class="categorias__list_item categorias__list_item-roupas">
+                        <div class="categorias__list_item_container">
+                        <img src="./assets/roupas.png" alt="Roupas">
+                    </div>
+                        <h4 class="categorias__list_item_titulo">Roupas</h4>
+                    </li>
+                    <li class="categorias__list_item categorias__list_item-decoracao">
+                        <div class="categorias__list_item_container">
+                        <img src="./assets/decoracao.png" alt="Decoração">
+                    </div>
+                        <h4 class="categorias__list_item_titulo">Decoração</h4>
+                    </li>
+                    <li class="categorias__list_item categorias__list_item-canecas">
+                        <div class="categorias__list_item_container">
+                        <img src="./assets/canecas.png" alt="Canecas">
+                    </div>
+                        <h4 class="categorias__list_item_titulo">Canecas</h4>
+                    </li>
+                    <li class="categorias__list_item categorias__list_item-acessorios">
+                        <div class="categorias__list_item_container">
+                        <img src="./assets/acessorios.png" alt="Acessórios">
+                    </div>
+                        <h4 class="categorias__list_item_titulo">Acessórios</h4>
+                    </li>
+                </ul>
+            
+        </section>
+
+        <section class="promocoes">
+            <h3 class="promocoes__titulo">Promos especiais</h3>
+            <ul class="promocoes__list">
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/abridor.png" 
+                    alt="Abridor de garrafas">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Abridor</h4>
+                    <p>29,90</p>
+                </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/camiseta.png" alt="Camiseta">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Camiseta</h4>
+                    <p>39,90</p>
+                    </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/caneca.png" alt="Caneca">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Caneca</h4>
+                    <p>19,90</p>
+                    </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/camisa.png" alt="camisa">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Camisa</h4>
+                    <p>49,90</p>
+                    </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/quadro.png" alt="Quadro">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Quadro</h4>
+                    <p>59,90</p>
+                    </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/copo.png" alt="Copo">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Copo</h4>
+                    <p>29,90</p>
+                    </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/boné.png" alt="Boné">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Boné</h4>
+                    <p>39,90</p>
+                    </div>
+                </li>
+                <li class="promocoes__list_item">
+                    <img src="./assets/produtos/mousepad.png" alt="Mousepad">
+                    <div class="promocoes__list_item_descricao">
+                    <h4>Mousepad</h4>
+                    <p>29,90</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="newsletter">
+            <h3 class="newsletter__titulo">Inscreva-se para ganhar descontos!</h3>
+            <h4 class="newsletter__texto">Cadastre seu email, receba novidades e descontos imperdíveis antes de todo mundo!</h4>
+            <div class="newsletter__container">
+                <input type="email"
+                 name="email" 
+                 id="email" 
+                 placeholder="Digite seu melhor endereço de email"
+                 class="newsletter__container_input">
+                <button class="newsletter__container_botao">Inscrever</button>
+            </div>
+        </section>
+    </main>
+    
+        <footer class="rodape">
+            <div class="rodape__linha">
+            <div class="rodape__coluna rodape__coluna_logo">
+                <img src="./assets/icons/logo-verde.svg" alt="UseDev Logo">
+                <p class="rodape__coluna_logo_texto">Hora de abraçar o seu lado geek</p>
+            </div>
+
+            <div class="rodape__coluna">
+                <h5 class="rodape__coluna_titulo">Funcionamento</h5>
+                <ul class="rodape__coluna_list">
+                    <li class="rodape__coluna_list_item">
+                        Segunda a Sexta - 8h as 18h
+                    </li>
+                    <li class="rodape__coluna_list_item">
+                        <a class="rodape__coluna_link" href="mailto:sac@usedev.com">sac@usedev.com</a>
+                    </li>
+                    <li class="rodape__coluna_list_item">
+                       
+                <a class="rodape__coluna_link" href="tel:+550800541320">0800 541 320</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="rodape__coluna">
+                <h5 class="rodape__coluna_titulo">Institucional</h5>
+                <nav class="rodape__coluna_nav">
+                    <ul class="rodape__coluna_list">
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">Sobre nós</a>
+                        </li>
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">Contato</a>
+                        </li>
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">Políticas de privacidade</a>
+                        </li>
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">LGPD - Lei de proteção de dados</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="rodape__coluna">
+                <h5 class="rodape__coluna_titulo">Informações</h5>
+                <nav class="rodape__coluna_nav">
+                    <ul class="rodape__coluna_list">
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">Entregas</a>
+                        </li>
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">Garantia</a>
+                        </li>
+                        <li class="rodape__coluna_list_item">
+                            <a href="#" class="rodape__coluna_link">Trocas e devoluções</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+  
+        <div class="rodape__linha">
+            <div class="rodape__coluna">
+                <h5 class="rodape__coluna_titulo">Formas de pagamento</h5>
+                <ul class="rodape__coluna_list-cartao">
+                    <li class="rodape__coluna_list-item-cartao">
+                        <img src="./assets/icons/icon-cartao-visa.svg" alt="Visa">
+                    </li>
+                    <li class="rodape__coluna_list-item-cartao">
+                        <img src="./assets/icons/icon-cartao-master.svg" alt="Mastercard">
+                    </li>
+                    <li class="rodape__coluna_list-item-cartao">
+                        <img src="./assets/icons/icon-cartao-elo.svg" alt="Elo">
+                    </li>
+                    <li class="rodape__coluna_list-item-cartao">
+                        <img src="./assets/icons/icon-cartao-diners.svg" alt="Diners">
+                    </li>
+                    <li class="rodape__coluna_list-item-cartao">
+                        <img src="./assets/icons/icon-pix.svg" alt="Pix">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="rodape__coluna">
+                <h5 class="rodape__coluna_titulo">Siga nossas redes</h5>
+                <ul class="rodape__coluna_list-redes-sociais">
+                    <li class="rodape__coluna_list-item-redes-sociais">
+                        <a href="#">
+                            <img src="./assets/icons/whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </li>
+                   <li class="rodape__coluna_list-item-redes-sociais">
+                        <a href="#">
+                            <img src="./assets/icons/instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                   <li class="rodape__coluna_list-item-redes-sociais">
+                        <a href="#">
+                            <img src="./assets/icons/tiktok.svg" alt="Tiktok">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    
+</body>
+</html>
